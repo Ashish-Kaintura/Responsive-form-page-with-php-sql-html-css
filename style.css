@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+legend{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    display: flex;
+    background-color: honeydew;
+    padding: 25px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 170px;
+    margin-right: 170px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+div{
+  
+    text-align: center;
+    flex-wrap: wrap;
+}
+.Submit{
+
+    font-size: larger;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 49px;
+}
+  
+input{
+    text-align: center;
+}
+form:hover{
+    opacity: 90%;
+}
+
+@media screen and (max-width:391px),(max-height:800px){
+    form {
+        display: flex;
+        background-color: honeydew;
+        padding: 25px;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border-radius: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
